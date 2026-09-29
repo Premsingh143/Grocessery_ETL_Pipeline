@@ -1,0 +1,102 @@
+2026-09-29 17:46:26,076 - INFO - Starting Grocery ETL Piepline
+2026-09-29 17:46:33,216 - INFO - Spark session created
+2026-09-29 17:46:33,216 - INFO - Reading sales data from data/raw/online_orders.csv
+2026-09-29 17:46:35,713 - INFO - Found 28 total records
+2026-09-29 17:46:35,714 - INFO - Reading sales data from data/raw/store_orders.csv
+2026-09-29 17:46:35,857 - INFO - Found 28 total records
+2026-09-29 17:46:35,857 - INFO - Reading sales data from data/raw/mobile_orders.csv
+2026-09-29 17:46:35,978 - INFO - Found 29 total records
+2026-09-29 17:46:36,194 - INFO - Combined dataset has 85 orders
+2026-09-29 17:46:36,331 - INFO - Extracted 85 raw records
+2026-09-29 17:46:36,331 - INFO - Starting data transformation...
+2026-09-29 17:46:37,071 - WARNING - Found 1 orders with suspicious prices
+2026-09-29 17:46:38,563 - INFO - Removed 7 test/invalid orders
+2026-09-29 17:46:39,256 - INFO - Removed 3 duplicate_orders
+2026-09-29 17:46:39,560 - INFO - Transformation complete. Final record count: 75
+2026-09-29 17:46:39,753 - INFO - Transformed to 75 clean records
+2026-09-29 17:46:39,996 - INFO - Writing 75 records to data/processed/orders
+2026-09-29 17:46:40,791 - INFO - Successfully wrote 75 records
+2026-09-29 17:46:40,791 - INFO - Output location: data/processed/orders/orders.csv
+2026-09-29 17:46:41,239 - INFO - Sanity check - Total orders: 75
+2026-09-29 17:46:41,498 - INFO - Date range: 2024-10-15 to 2024-11-10
+2026-09-29 17:46:43,394 - INFO - 
+==== ETL Summary Report ===
+2026-09-29 17:46:43,394 - INFO - total_orders: 75
+2026-09-29 17:46:43,394 - INFO - unique_customers: 53
+2026-09-29 17:46:43,394 - INFO - unique_products: 74
+2026-09-29 17:46:43,394 - INFO - total_revenue: 667.8700000000003
+2026-09-29 17:46:43,394 - INFO - date_range: 2024-10-15 to 2024-11-10
+2026-09-29 17:46:43,394 - INFO - regions: 4
+2026-09-29 17:46:43,394 - INFO - ======================
+
+2026-09-29 17:46:43,394 - INFO - Pipeline completed successfully in 17.32 seconds
+2026-09-29 17:46:43,811 - INFO - Spark session closed
+2026-09-29 17:46:43,814 - INFO - Closing down clientserver connection
+2026-09-29 17:47:30,544 - INFO - Starting Grocery ETL Piepline
+2026-09-29 17:47:32,880 - INFO - Spark session created
+2026-09-29 17:47:32,881 - INFO - Reading sales data from data/raw/online_orders.csv
+2026-09-29 17:47:34,821 - INFO - Found 28 total records
+2026-09-29 17:47:34,821 - INFO - Reading sales data from data/raw/store_orders.csv
+2026-09-29 17:47:34,941 - INFO - Found 28 total records
+2026-09-29 17:47:34,942 - INFO - Reading sales data from data/raw/mobile_orders.csv
+2026-09-29 17:47:35,047 - INFO - Found 29 total records
+2026-09-29 17:47:35,235 - INFO - Combined dataset has 85 orders
+2026-09-29 17:47:35,363 - INFO - Extracted 85 raw records
+2026-09-29 17:47:35,363 - INFO - Starting data transformation...
+2026-09-29 17:47:36,106 - WARNING - Found 1 orders with suspicious prices
+2026-09-29 17:47:37,634 - INFO - Removed 7 test/invalid orders
+2026-09-29 17:47:38,340 - INFO - Removed 3 duplicate_orders
+2026-09-29 17:47:38,647 - INFO - Transformation complete. Final record count: 75
+2026-09-29 17:47:38,844 - INFO - Transformed to 75 clean records
+2026-09-29 17:47:39,061 - INFO - Writing 75 records to data/processed/orders
+2026-09-29 17:47:39,835 - INFO - Successfully wrote 75 records
+2026-09-29 17:47:39,835 - INFO - Output location: data/processed/orders/orders.csv
+2026-09-29 17:47:40,255 - INFO - Sanity check - Total orders: 75
+2026-09-29 17:47:40,509 - INFO - Date range: 2024-10-15 to 2024-11-10
+2026-09-29 17:47:42,290 - INFO - 
+==== ETL Summary Report ===
+2026-09-29 17:47:42,290 - INFO - total_orders: 75
+2026-09-29 17:47:42,290 - INFO - unique_customers: 53
+2026-09-29 17:47:42,290 - INFO - unique_products: 74
+2026-09-29 17:47:42,290 - INFO - total_revenue: 667.8700000000003
+2026-09-29 17:47:42,290 - INFO - date_range: 2024-10-15 to 2024-11-10
+2026-09-29 17:47:42,290 - INFO - regions: 4
+2026-09-29 17:47:42,290 - INFO - ======================
+
+2026-09-29 17:47:42,290 - INFO - Pipeline completed successfully in 11.75 seconds
+2026-09-29 17:47:42,802 - INFO - Spark session closed
+2026-09-29 17:47:42,803 - INFO - Closing down clientserver connection
+2026-09-29 17:48:42,604 - INFO - Starting Grocery ETL Piepline
+2026-09-29 17:48:45,029 - INFO - Spark session created
+2026-09-29 17:48:45,029 - INFO - Reading sales data from data/raw/online_orders.csv
+2026-09-29 17:48:46,993 - INFO - Found 28 total records
+2026-09-29 17:48:46,993 - INFO - Reading sales data from data/raw/store_orders.csv
+2026-09-29 17:48:47,138 - INFO - Found 28 total records
+2026-09-29 17:48:47,139 - INFO - Reading sales data from data/raw/mobile_orders.csv
+2026-09-29 17:48:47,256 - INFO - Found 29 total records
+2026-09-29 17:48:47,478 - INFO - Combined dataset has 85 orders
+2026-09-29 17:48:47,649 - INFO - Extracted 85 raw records
+2026-09-29 17:48:47,649 - INFO - Starting data transformation...
+2026-09-29 17:48:48,415 - WARNING - Found 1 orders with suspicious prices
+2026-09-29 17:48:49,920 - INFO - Removed 7 test/invalid orders
+2026-09-29 17:48:50,690 - INFO - Removed 3 duplicate_orders
+2026-09-29 17:48:51,116 - INFO - Transformation complete. Final record count: 75
+2026-09-29 17:48:51,419 - INFO - Transformed to 75 clean records
+2026-09-29 17:48:51,691 - INFO - Writing 75 records to data/processed/orders
+2026-09-29 17:48:52,636 - INFO - Successfully wrote 75 records
+2026-09-29 17:48:52,636 - INFO - Output location: data/processed/orders/orders.csv
+2026-09-29 17:48:53,072 - INFO - Sanity check - Total orders: 75
+2026-09-29 17:48:53,314 - INFO - Date range: 2024-10-15 to 2024-11-10
+2026-09-29 17:48:55,181 - INFO - 
+==== ETL Summary Report ===
+2026-09-29 17:48:55,181 - INFO - total_orders: 75
+2026-09-29 17:48:55,181 - INFO - unique_customers: 53
+2026-09-29 17:48:55,182 - INFO - unique_products: 74
+2026-09-29 17:48:55,182 - INFO - total_revenue: 667.8700000000003
+2026-09-29 17:48:55,182 - INFO - date_range: 2024-10-15 to 2024-11-10
+2026-09-29 17:48:55,182 - INFO - regions: 4
+2026-09-29 17:48:55,182 - INFO - ======================
+
+2026-09-29 17:48:55,182 - INFO - Pipeline completed successfully in 12.58 seconds
+2026-09-29 17:48:55,408 - INFO - Spark session closed
+2026-09-29 17:48:55,409 - INFO - Closing down clientserver connection
